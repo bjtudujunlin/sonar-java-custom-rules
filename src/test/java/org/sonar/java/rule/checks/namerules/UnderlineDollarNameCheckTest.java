@@ -13,10 +13,10 @@ public class UnderlineDollarNameCheckTest {
     }
     @Test
     public void test1(){
-        JavaCheckVerifier.verify("src/test/files/ActionTestCase.java", new UnderlineDollarNameCheck());
+        JavaCheckVerifier.verifyNoIssue("src/test/files/ActionTestCase.java", new UnderlineDollarNameCheck());
     }
     @Test
     public void test2(){
-        JavaCheckVerifier.verify("src/test/files/ActionTestCaseImpl.java", new UnderlineDollarNameCheck());
+        JavaCheckVerifier.verifyNoIssue("src/test/files/ActionTestCaseImpl.java", new UnderlineDollarNameCheck());
     }
 }

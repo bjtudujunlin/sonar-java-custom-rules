@@ -19,7 +19,7 @@ public class ExceptionClassNameCheckTest {
 
     @Test
     public void test2() {
-        JavaCheckVerifier.verify("src/test/files/AgeOutOfException.java", new ExceptionClassNameCheck());
+        JavaCheckVerifier.verifyNoIssue("src/test/files/AgeOutOfException.java", new ExceptionClassNameCheck());
     }
 
     @Test

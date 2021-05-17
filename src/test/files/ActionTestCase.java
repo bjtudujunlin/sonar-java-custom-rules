@@ -8,12 +8,12 @@ import net.sf.json.JSONObject;
  * 执行测试用例
  * Created by huqingen on 2017/3/10.
  */
-public interface ActionTestCase {
+public interface ActionTestCase {// Compliant
 
     /**
      * 执行http测试请求
      * @param httpRequestInfo
      * @return
      */
-    TResultInfo runTestCase(JSONObject HttpRequestInfo, String assertValue);// Noncompliant
+    TResultInfo runTestCase(JSONObject HttpRequestInfo, String assertValue);// Compliant
 }

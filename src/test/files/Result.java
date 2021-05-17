@@ -3,5 +3,6 @@ package org.finger.java.rule.checks.namerules;
 /**
  * Created by huqingen on 2017/3/17.
  */
-public abstract class HiClass extends Exception{// Noncompliant
+public class Result {
+    public Integer ABCTest; // Noncompliant
 }

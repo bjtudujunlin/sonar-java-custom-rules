@@ -19,10 +19,10 @@ public class AbstractClassNameCheckTest {
 
     @Test
     public void test2() {
-        JavaCheckVerifier.verify("src/test/files/BaseMysql.java", new AbstractClassNameCheck());
+        JavaCheckVerifier.verifyNoIssue("src/test/files/BaseMysql.java", new AbstractClassNameCheck());
     }
     @Test
     public void test3() {
-        JavaCheckVerifier.verify("src/test/files/AbstractMysql.java", new AbstractClassNameCheck());
+        JavaCheckVerifier.verifyNoIssue("src/test/files/AbstractMysql.java", new AbstractClassNameCheck());
     }
 }

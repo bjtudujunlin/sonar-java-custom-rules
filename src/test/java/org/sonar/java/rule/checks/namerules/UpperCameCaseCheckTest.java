@@ -18,10 +18,10 @@ public class UpperCameCaseCheckTest {
     }
     @Test
     public void test3(){
-        JavaCheckVerifier.verify("src/test/files/AbstractMysql.java", new UpperCameCaseCheck());
+        JavaCheckVerifier.verifyNoIssue("src/test/files/AbstractMysql.java", new UpperCameCaseCheck());
     }
     @Test
     public void test4(){
-        JavaCheckVerifier.verify("src/test/files/ActionTestCase.java", new UpperCameCaseCheck());
+        JavaCheckVerifier.verifyNoIssue("src/test/files/ActionTestCase.java", new UpperCameCaseCheck());
     }
 }
